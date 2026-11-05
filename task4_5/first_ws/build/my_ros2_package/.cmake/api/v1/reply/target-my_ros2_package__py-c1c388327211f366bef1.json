@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/my_ros2_package__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "my_ros2_package::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "my_ros2_package__py::@db8ddf24d8d5620e5390",
+	"name" : "my_ros2_package__py",
+	"paths" : 
+	{
+		"build" : "my_ros2_package__py",
+		"source" : "/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/my_ros2_package__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/my_ros2_package__py/CMakeFiles/my_ros2_package__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/my_ros2_package__py/CMakeFiles/my_ros2_package__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/rosidl_generator_py/my_ros2_package/_my_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

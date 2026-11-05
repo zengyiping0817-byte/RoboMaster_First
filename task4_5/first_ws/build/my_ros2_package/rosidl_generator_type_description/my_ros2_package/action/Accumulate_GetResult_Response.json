@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_ros2_package/action/Accumulate_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "my_ros2_package/action/Accumulate_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "my_ros2_package/action/Accumulate_Result",
+        "fields": [
+          {
+            "name": "final_sum",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_ros2_package/action/Accumulate_GetResult_Response",
+      "hash_string": "RIHS01_33fb90d4a78786284e7559d10a5b0fabd97405fc9f936ceba16c1ccdce153455"
+    },
+    {
+      "type_name": "my_ros2_package/action/Accumulate_Result",
+      "hash_string": "RIHS01_c0f4714742dcc7f3535c99f30935e4a6e2da98c5fd93908dd328ccdf17ac13d2"
+    }
+  ]
+}

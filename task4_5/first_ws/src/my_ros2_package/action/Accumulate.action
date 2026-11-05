@@ -1,0 +1,9 @@
+# Goal
+int32 target_num
+---
+# Result
+int32 final_sum
+---
+# Feedback
+int32 current_num
+int32 current_sum

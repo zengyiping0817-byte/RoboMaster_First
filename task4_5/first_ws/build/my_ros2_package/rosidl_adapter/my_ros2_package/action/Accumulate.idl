@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_ros2_package/action/Accumulate.action
+// generated code does not contain a copyright notice
+
+
+module my_ros2_package {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Accumulate_Goal {
+      int32 target_num;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Accumulate_Result {
+      int32 final_sum;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Accumulate_Feedback {
+      int32 current_num;
+
+      int32 current_sum;
+    };
+  };
+};

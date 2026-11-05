@@ -1,0 +1,65 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from my_ros2_package:msg/Item.idl
+// generated code does not contain a copyright notice
+#ifndef MY_ROS2_PACKAGE__MSG__DETAIL__ITEM__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define MY_ROS2_PACKAGE__MSG__DETAIL__ITEM__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "my_ros2_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+#include "my_ros2_package/msg/detail/item__struct.h"
+#include "fastcdr/Cdr.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_ros2_package
+bool cdr_serialize_my_ros2_package__msg__Item(
+  const my_ros2_package__msg__Item * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_ros2_package
+bool cdr_deserialize_my_ros2_package__msg__Item(
+  eprosima::fastcdr::Cdr &,
+  my_ros2_package__msg__Item * ros_message);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_ros2_package
+size_t get_serialized_size_my_ros2_package__msg__Item(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_ros2_package
+size_t max_serialized_size_my_ros2_package__msg__Item(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_ros2_package
+bool cdr_serialize_key_my_ros2_package__msg__Item(
+  const my_ros2_package__msg__Item * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_ros2_package
+size_t get_serialized_size_key_my_ros2_package__msg__Item(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_ros2_package
+size_t max_serialized_size_key_my_ros2_package__msg__Item(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_ros2_package
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, my_ros2_package, msg, Item)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // MY_ROS2_PACKAGE__MSG__DETAIL__ITEM__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

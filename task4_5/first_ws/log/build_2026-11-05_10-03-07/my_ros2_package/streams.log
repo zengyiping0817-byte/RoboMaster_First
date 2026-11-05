@@ -1,0 +1,256 @@
+[0.007s] Invoking command in '/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package -- -j16 -l16
+[0.048s] [  1%] Built target my_ros2_package__rs
+[0.048s] [  2%] Built target my_ros2_package__rosidl_generator_type_description
+[0.055s] [  2%] Built target ament_cmake_python_copy_my_ros2_package
+[0.062s] [  4%] Built target my_ros2_package__cpp
+[0.064s] [ 20%] Built target my_ros2_package__rosidl_generator_c
+[0.080s] [ 28%] Built target my_ros2_package__rosidl_typesupport_introspection_c
+[0.081s] [ 41%] Built target my_ros2_package__rosidl_typesupport_c
+[0.081s] [ 43%] Built target my_ros2_package__rosidl_typesupport_fastrtps_c
+[0.082s] [ 50%] Built target my_ros2_package__rosidl_typesupport_fastrtps_cpp
+[0.090s] [ 65%] Built target my_ros2_package__rosidl_typesupport_cpp
+[0.090s] [ 65%] Built target my_ros2_package__rosidl_typesupport_introspection_cpp
+[0.105s] [ 65%] Built target my_ros2_package
+[0.125s] [ 67%] Built target my_ros2_package__py
+[0.127s] [ 73%] Built target fibonacci_server
+[0.127s] [ 73%] [32mBuilding CXX object CMakeFiles/fibonacci_client.dir/src/task2_client.cpp.o[0m
+[0.128s] [ 74%] Built target item_subscriber
+[0.130s] [ 77%] Built target item_publisher
+[0.134s] [ 80%] Built target accumulate_server
+[0.141s] [ 83%] Built target accumulate_client
+[0.144s] [ 89%] Built target my_ros2_package__rosidl_generator_py
+[0.160s] [ 98%] Built target my_ros2_package_s__rosidl_typesupport_c
+[0.160s] [ 98%] Built target my_ros2_package_s__rosidl_typesupport_fastrtps_c
+[0.160s] [ 98%] Built target my_ros2_package_s__rosidl_typesupport_introspection_c
+[0.185s] running egg_info
+[0.193s] writing my_ros2_package.egg-info/PKG-INFO
+[0.193s] writing dependency_links to my_ros2_package.egg-info/dependency_links.txt
+[0.193s] writing top-level names to my_ros2_package.egg-info/top_level.txt
+[0.216s] reading manifest file 'my_ros2_package.egg-info/SOURCES.txt'
+[0.216s] writing manifest file 'my_ros2_package.egg-info/SOURCES.txt'
+[0.232s] [ 98%] Built target ament_cmake_python_build_my_ros2_package_egg
+[2.522s] [100%] [32m[1mLinking CXX executable fibonacci_client[0m
+[2.644s] [100%] Built target fibonacci_client
+[2.651s] Invoked command in '/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package -- -j16 -l16
+[2.660s] Invoking command in '/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package
+[2.665s] -- Install configuration: ""
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/ament_index/resource_index/rosidl_interfaces/my_ros2_package
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/msg/Item.json
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/srv/Fibonacci.json
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/action/Accumulate.json
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/item.h
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/rosidl_generator_c__visibility_control.h
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail
+[2.665s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__type_support.c
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__functions.c
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__functions.h
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__description.c
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__struct.h
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__type_support.h
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/accumulate.h
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__description.c
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__functions.h
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__struct.h
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__functions.c
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__type_support.c
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__type_support.h
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/fibonacci.h
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail
+[2.666s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__type_support.h
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__type_support.c
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__description.c
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__struct.h
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__functions.c
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__functions.h
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/environment/library_path.sh
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/environment/library_path.dsv
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/libmy_ros2_package__rosidl_generator_c.so
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__rosidl_typesupport_fastrtps_c.h
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__rosidl_typesupport_fastrtps_c.h
+[2.667s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/libmy_ros2_package__rosidl_typesupport_fastrtps_c.so
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/item.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__traits.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__struct.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__type_support.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__builder.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/accumulate.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__builder.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__traits.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__type_support.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__struct.hpp
+[2.668s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/fibonacci.hpp
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__type_support.hpp
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__builder.hpp
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__traits.hpp
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__struct.hpp
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/dds_fastrtps
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__rosidl_typesupport_fastrtps_cpp.hpp
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/dds_fastrtps
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__rosidl_typesupport_fastrtps_cpp.hpp
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/dds_fastrtps
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[2.669s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/libmy_ros2_package__rosidl_typesupport_fastrtps_cpp.so
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__type_support.c
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__rosidl_typesupport_introspection_c.h
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__type_support.c
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__rosidl_typesupport_introspection_c.h
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__type_support.c
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/libmy_ros2_package__rosidl_typesupport_introspection_c.so
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/libmy_ros2_package__rosidl_typesupport_c.so
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__type_support.cpp
+[2.670s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/msg/detail/item__rosidl_typesupport_introspection_cpp.hpp
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__rosidl_typesupport_introspection_cpp.hpp
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/action/detail/accumulate__type_support.cpp
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/include/my_ros2_package/my_ros2_package/srv/detail/fibonacci__type_support.cpp
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/libmy_ros2_package__rosidl_typesupport_introspection_cpp.so
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/libmy_ros2_package__rosidl_typesupport_cpp.so
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/environment/pythonpath.sh
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/environment/pythonpath.dsv
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package-0.0.0-py3.12.egg-info
+[2.671s] -- Installing: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.671s] -- Installing: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package-0.0.0-py3.12.egg-info/top_level.txt
+[2.671s] -- Installing: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.671s] -- Installing: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package-0.0.0-py3.12.egg-info/PKG-INFO
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/my_ros2_package_s__rosidl_typesupport_introspection_c.so
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/_my_ros2_package_s.ep.rosidl_typesupport_c.c
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/msg
+[2.671s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/msg/_item.py
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/msg/_item_s.c
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/msg/__init__.py
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/action
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/action/__init__.py
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/action/_accumulate.py
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/action/_accumulate_s.c
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/my_ros2_package_s__rosidl_typesupport_c.so
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/__init__.py
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/_my_ros2_package_s.ep.rosidl_typesupport_introspection_c.c
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/srv
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/srv/_fibonacci.py
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/srv/_fibonacci_s.c
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/srv/__init__.py
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/_my_ros2_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.672s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/my_ros2_package_s__rosidl_typesupport_fastrtps_c.so
+[2.689s] Listing '/home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package'...
+[2.689s] Listing '/home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/action'...
+[2.689s] Listing '/home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/msg'...
+[2.689s] Listing '/home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/srv'...
+[2.692s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/my_ros2_package_s__rosidl_typesupport_fastrtps_c.so
+[2.692s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/my_ros2_package_s__rosidl_typesupport_introspection_c.so
+[2.692s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/python3.12/site-packages/my_ros2_package/my_ros2_package_s__rosidl_typesupport_c.so
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/libmy_ros2_package__rosidl_generator_py.so
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/lib.rs
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/action.rs
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/msg
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/msg/rmw.rs
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/action
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/action/rmw.rs
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/srv.rs
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/msg.rs
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/srv
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/src/srv/rmw.rs
+[2.693s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/build.rs
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/rust/Cargo.toml
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/msg/Item.idl
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/srv/Fibonacci.idl
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/action/Accumulate.idl
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/msg/Item.msg
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/srv/Fibonacci.srv
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/action/Accumulate.action
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/my_ros2_package/item_publisher
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/my_ros2_package/item_subscriber
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/my_ros2_package/fibonacci_server
+[2.694s] -- Installing: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/my_ros2_package/fibonacci_client
+[2.694s] -- Set non-toolchain portion of runtime path of "/home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/my_ros2_package/fibonacci_client" to ""
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/my_ros2_package/accumulate_server
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/lib/my_ros2_package/accumulate_client
+[2.694s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/ament_index/resource_index/package_run_dependencies/my_ros2_package
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/ament_index/resource_index/parent_prefix_path/my_ros2_package
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.sh
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/environment/ament_prefix_path.dsv
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/environment/path.sh
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/environment/path.dsv
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/local_setup.bash
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/local_setup.sh
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/local_setup.zsh
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/local_setup.dsv
+[2.695s] -- Installing: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/package.dsv
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/ament_index/resource_index/packages/my_ros2_package
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/export_my_ros2_package__rosidl_generator_cExport.cmake
+[2.695s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/export_my_ros2_package__rosidl_generator_cExport-noconfig.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/export_my_ros2_package__rosidl_typesupport_fastrtps_cExport.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/export_my_ros2_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/export_my_ros2_package__rosidl_generator_cppExport.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/export_my_ros2_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/export_my_ros2_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_package__rosidl_typesupport_introspection_cExport.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_package__rosidl_typesupport_cExport.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_package__rosidl_typesupport_cExport-noconfig.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_package__rosidl_typesupport_introspection_cppExport.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_package__rosidl_typesupport_cppExport.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_package__rosidl_typesupport_cppExport-noconfig.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/export_my_ros2_package__rosidl_generator_pyExport.cmake
+[2.696s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/export_my_ros2_package__rosidl_generator_pyExport-noconfig.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/rosidl_cmake-extras.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/ament_cmake_export_libraries-extras.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/ament_cmake_export_targets-extras.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/cmake/my_ros2_packageConfig-version.cmake
+[2.697s] -- Up-to-date: /home/zyp/RoboMaster_First/task4_5/first_ws/install/my_ros2_package/share/my_ros2_package/package.xml
+[2.699s] Invoked command in '/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package

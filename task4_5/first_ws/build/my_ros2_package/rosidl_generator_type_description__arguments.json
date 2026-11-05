@@ -1,0 +1,16 @@
+{
+  "package_name": "my_ros2_package",
+  "output_dir": "/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/rosidl_generator_type_description/my_ros2_package",
+  "idl_tuples": [
+    "/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/rosidl_adapter/my_ros2_package:msg/Item.idl",
+    "/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/rosidl_adapter/my_ros2_package:srv/Fibonacci.idl",
+    "/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/rosidl_adapter/my_ros2_package:action/Accumulate.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

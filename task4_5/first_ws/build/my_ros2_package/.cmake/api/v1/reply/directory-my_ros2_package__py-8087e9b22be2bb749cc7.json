@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_ros2_package__py",
+		"source" : "/home/zyp/RoboMaster_First/task4_5/first_ws/build/my_ros2_package/my_ros2_package__py"
+	}
+}

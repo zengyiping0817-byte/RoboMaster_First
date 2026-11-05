@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_ros2_package/srv/Fibonacci.srv
+// generated code does not contain a copyright notice
+
+
+module my_ros2_package {
+  module srv {
+    struct Fibonacci_Request {
+      int32 a;
+
+      int32 b;
+    };
+    struct Fibonacci_Response {
+      int32 next;
+    };
+  };
+};

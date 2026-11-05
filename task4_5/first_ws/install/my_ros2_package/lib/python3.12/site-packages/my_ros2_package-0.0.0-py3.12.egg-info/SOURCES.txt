@@ -1,0 +1,12 @@
+setup.py
+my_ros2_package/__init__.py
+my_ros2_package.egg-info/PKG-INFO
+my_ros2_package.egg-info/SOURCES.txt
+my_ros2_package.egg-info/dependency_links.txt
+my_ros2_package.egg-info/top_level.txt
+my_ros2_package/action/__init__.py
+my_ros2_package/action/_accumulate.py
+my_ros2_package/msg/__init__.py
+my_ros2_package/msg/_item.py
+my_ros2_package/srv/__init__.py
+my_ros2_package/srv/_fibonacci.py

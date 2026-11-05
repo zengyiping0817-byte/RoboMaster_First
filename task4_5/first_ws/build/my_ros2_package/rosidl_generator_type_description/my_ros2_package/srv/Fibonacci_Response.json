@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_ros2_package/srv/Fibonacci_Response",
+      "fields": [
+        {
+          "name": "next",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_ros2_package/srv/Fibonacci_Response",
+      "hash_string": "RIHS01_42b24686f52d5966ce503cde662f172018673aa3309051a3adec5c45d63bf50c"
+    }
+  ]
+}

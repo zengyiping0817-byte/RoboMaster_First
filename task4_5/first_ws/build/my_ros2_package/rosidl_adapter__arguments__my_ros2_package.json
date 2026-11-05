@@ -1,0 +1,8 @@
+{
+  "package_name": "my_ros2_package",
+  "non_idl_tuples": [
+    "/home/zyp/RoboMaster_First/task4_5/first_ws/src/my_ros2_package:msg/Item.msg",
+    "/home/zyp/RoboMaster_First/task4_5/first_ws/src/my_ros2_package:srv/Fibonacci.srv",
+    "/home/zyp/RoboMaster_First/task4_5/first_ws/src/my_ros2_package:action/Accumulate.action"
+  ]
+}
